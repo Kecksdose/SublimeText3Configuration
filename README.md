@@ -16,16 +16,20 @@ This ST3 configuration in based on a [blog entry](https://dbader.org/blog/settin
 
 ### Themes
 - [Soda Reloaded](https://packagecontrol.io/packages/Theme%20-%20SoDaReloaded)
-   - 
+   - Some nice theme (i.e. UI manipulation) to ST3.
 
 ### Color Themes:
 - [Tomorrow Color Schemes](https://github.com/theymaybecoders/sublime-tomorrow-theme)
+    - Eye candy with different (night, day) color themes.
 
 ### Git:
 - [GitGutter](https://github.com/jisaacks/GitGutter)
+    - If you are using Git, this one will be mandatory to you. It adds some small `+` and `-` signs in front of the line to point out that this line has been changed/deleted in contrast to your last git commit. 
 
 ### Python:
 - [Python Flake8 Lint](https://github.com/dreadatour/Flake8Lint)
+    - Everybody wants to write not only working, but also pretty code. Python Flake8 Lint looks through your code and indicates whether your code is not [PEP8](https://www.python.org/dev/peps/pep-0008/) confirm.
 
 ### Just for fun:
-- [SublimeREPL](https://github.com/wuub/SublimeREPL), python shell IN sublime!
+- [SublimeREPL](https://github.com/wuub/SublimeREPL) 
+    - Python shell IN sublime!
