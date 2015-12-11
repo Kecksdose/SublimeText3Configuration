@@ -44,3 +44,12 @@ This is the base path (at least for Mac OS X machines) where all preferences, pa
 
 ### Spell checker for different languages
 To add different languages to your ST3 spell checker, simply follow [these](https://www.sublimetext.com/docs/3/spell_checking.html) instructions.
+
+### Open ST3 from terminal
+If you want to start ST3 directly from the command line, follow [this](http://olivierlacan.com/posts/launch-sublime-text-3-from-the-command-line/) guide. The core command is
+
+    ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
+
+which creates a symlink to Sublime. To create a new file from terminal, simply type
+
+    sublime new_file.py
