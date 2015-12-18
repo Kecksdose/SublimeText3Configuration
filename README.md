@@ -50,6 +50,8 @@ If you want to start ST3 directly from the command line, follow [this](http://ol
 
     ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
 
-which creates a symlink to Sublime. To create a new file from terminal, simply type
+which creates a symlink to Sublime. _Hint_: If you start from a fresh Mac OS X El Capitan system, the folder `/usr/local/bin` might not exist. You can create is typing `sudo mkdir /usr/local/bin`.
+
+To create a new file from terminal, simply type
 
     sublime new_file.py
